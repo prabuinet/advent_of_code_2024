@@ -30,3 +30,9 @@
 *.exe
 *.out
 *.app
+input.txt
+input2.txt
+*.ilk
+*.pdb
+*.pdb
+.vscode/tasks.json
