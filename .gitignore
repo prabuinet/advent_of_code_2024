@@ -36,3 +36,4 @@ input2.txt
 *.pdb
 *.pdb
 .vscode/tasks.json
+.vscode/settings.json
