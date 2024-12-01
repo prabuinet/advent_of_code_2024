@@ -4,9 +4,6 @@
 #include <cstdint>
 #include <unordered_map>
 
-
-using namespace std;
-
 int main()
 {
   std::ifstream ifile("input2.txt");
@@ -21,7 +18,7 @@ int main()
     nums2.push_back(num2);
   }
 
-  unordered_map<int, int> counts;
+  std::unordered_map<int, int> counts;
   for (auto x : nums2) {
     if (counts.find(x) == counts.end()) {
       counts[x] = 1;
@@ -36,7 +33,7 @@ int main()
       total += counts[x] * x;
   }
 
-  std::cout << total << endl;
+  std::cout << total << std::endl;
 
   return 0;
 }
